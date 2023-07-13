@@ -194,7 +194,7 @@ public class RoomNodeSO : ScriptableObject
     }
 
     //This simply drags node
-    private void DragNode(Vector2 delta)
+    public void DragNode(Vector2 delta)
     {
         rect.position += delta;
         EditorUtility.SetDirty(this);
