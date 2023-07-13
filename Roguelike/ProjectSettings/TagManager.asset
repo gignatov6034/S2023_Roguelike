@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - grid
+  - collisionTilemap
+  - mapTilemap
+  - groundTilemap
+  - decorationTilemap
+  - frontTilemap
+  - roomTilemap
+  - mapPlayer
   layers:
   - Default
   - TransparentFX
@@ -12,18 +20,18 @@ TagManager:
   - Water
   - UI
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Camera 1
+  - Camera 2
+  - Camera 3
+  - Player
+  - Map
+  - Room
+  - Wall
+  - PlayerAmmo
+  - Enemy
+  - EnemyAmmo
+  - IgnoreAmmo
+  - Environment
   - 
   - 
   - 
@@ -40,4 +48,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 2620182315
+    locked: 0
+  - name: decorGround
+    uniqueID: 1869311309
+    locked: 0
+  - name: Instance
+    uniqueID: 1270790169
+    locked: 0
+  - name: Map
+    uniqueID: 3576793721
+    locked: 0
+  - name: Collision
+    uniqueID: 432500745
+    locked: 0
+  - name: Front
+    uniqueID: 2480182845
     locked: 0
