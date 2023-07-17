@@ -1432,7 +1432,7 @@ MonoBehaviour:
     width: 160
     height: 75
   isLeftClickDragging: 0
-  isSelected: 1
+  isSelected: 0
 --- !u!114 &2236030392926592730
 MonoBehaviour:
   m_ObjectHideFlags: 0
