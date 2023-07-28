@@ -12,6 +12,7 @@ TagManager:
   - frontTilemap
   - roomTilemap
   - mapPlayer
+  - decorationFloorTilemap
   layers:
   - Default
   - TransparentFX
@@ -51,6 +52,9 @@ TagManager:
     locked: 0
   - name: Ground
     uniqueID: 2620182315
+    locked: 0
+  - name: decorGroundFloor
+    uniqueID: 2818229367
     locked: 0
   - name: decorGround
     uniqueID: 1869311309
