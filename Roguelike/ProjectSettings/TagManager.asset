@@ -62,12 +62,12 @@ TagManager:
   - name: Instance
     uniqueID: 1270790169
     locked: 0
-  - name: Map
-    uniqueID: 3576793721
+  - name: Front
+    uniqueID: 2480182845
     locked: 0
   - name: Collision
     uniqueID: 432500745
     locked: 0
-  - name: Front
-    uniqueID: 2480182845
+  - name: Map
+    uniqueID: 3576793721
     locked: 0
