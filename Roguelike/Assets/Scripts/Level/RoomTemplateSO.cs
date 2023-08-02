@@ -18,8 +18,8 @@ public class RoomTemplateSO : ScriptableObject
 
     #region Tooltip
     
-    [Header("The gameobject prefab for the room (this will contain all the tilemaps for the room and environment game objects)")]
-    #endregion Header Tooltip
+    [Tooltip("The gameobject prefab for the room (this will contain all the tilemaps for the room and environment game objects)")]
+    #endregion Tooltip
 
     public GameObject prefab; //Prefab of a single room 
 
@@ -30,10 +30,7 @@ public class RoomTemplateSO : ScriptableObject
     [Header("ROOM CONFIGURATION")]
     #endregion Header ROOM CONFIGURATION
 
-    #region Tooltip
-    
-    [Header("The room node type SO - The Room node types correspond to the room nodes used in the room node graph. The exceptions being with corridors - 2 types - CorridorNS and CorridorEW despite having only one type 'Corridor'")]
-    #endregion Header Tooltip
+    public RoomNodeTypeSO roomnodeType;
 
     public Vector2Int lowerBounds; //Bottom-left position of a room or corridor
 

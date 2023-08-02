@@ -21,6 +21,13 @@ public static class HelperUtilities
         bool error = false;
         int count = 0;
 
+
+        //return if null
+        if (enumerableObjToCheck == null)
+        {
+            return true;
+        }
+
         foreach (var item in enumerableObjToCheck)
         {
             //Check for any nukll value items

@@ -15,7 +15,23 @@ public enum Orientation
 {
     north,
     east,
-    sough,
+    south,
     west,
     none
+}
+
+//This enum holds all game states 
+public enum GameState
+{
+    gameStarted,
+    playingLevel,
+    engagingEnemies,
+    bossStage,
+    engaigngBoss,
+    levelCompleted,
+    gameWon,
+    gameLost,
+    gamePaused,
+    levelOverviewMap,
+    restartGame
 }
