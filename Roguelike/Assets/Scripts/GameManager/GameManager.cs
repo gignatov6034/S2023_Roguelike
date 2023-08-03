@@ -41,10 +41,10 @@ public class GameManager : SingletonMonobehaviour<GameManager>
 
         //For testing purposes
         //Regenerates the level when pressed
-        if (Input.GetKeyDown(KeyCode.R))
+        /*if (Input.GetKeyDown(KeyCode.R))
         {
             gameState = GameState.gameStarted;
-        }
+        }*/
     }
 
     //Manages all game states using switch case statements
