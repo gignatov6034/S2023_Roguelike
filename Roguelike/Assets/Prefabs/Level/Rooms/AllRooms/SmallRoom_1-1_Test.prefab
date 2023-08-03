@@ -122,17 +122,7 @@ Tilemap:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2151825003134273133}
   m_Enabled: 1
-  m_Tiles:
-  - first: {x: 2, y: -21, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 29
-      m_TileSpriteIndex: 29
-      m_TileMatrixIndex: 5
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
+  m_Tiles: {}
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 0
@@ -193,8 +183,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: ea09b379d42c1bd45beb2415867de79e, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
@@ -254,8 +244,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: -1016236524604560761, guid: 66a3b1ee37094514cb92790ecf74e1c9, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileMatrixArray:
   - m_RefCount: 0
     m_Data:
@@ -347,27 +337,27 @@ Tilemap:
       e31: 8.62e-43
       e32: 8.59e-43
       e33: 8.62e-43
-  - m_RefCount: 1
+  - m_RefCount: 0
     m_Data:
-      e00: 1
+      e00: -1.084227e-19
       e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
+      e02: 7.413612e+15
+      e03: 7.413612e+15
+      e10: 9.87e-43
+      e11: 0
+      e12: 2.89e-43
+      e13: 2.89e-43
+      e20: -7435.453
+      e21: 1.5863706e+29
+      e22: 3.7448826
+      e23: 1.5863706e+29
+      e30: 4.5904e-41
+      e31: 9.9e-43
+      e32: 9.87e-43
+      e33: 9.9e-43
   m_TileColorArray:
-  - m_RefCount: 1
-    m_Data: {r: 1, g: 1, b: 1, a: 1}
+  - m_RefCount: 0
+    m_Data: {r: 1.5863706e+29, g: 1.5863706e+29, b: 1.5863706e+29, a: 1.5863706e+29}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -698,25 +688,25 @@ Tilemap:
       e33: 8.62e-43
   - m_RefCount: 0
     m_Data:
-      e00: 1.084227e-19
+      e00: -1.084227e-19
       e01: 0
-      e02: -1.3801258e+27
-      e03: -1.3801258e+27
-      e10: 8.21e-43
+      e02: 7.413612e+15
+      e03: 7.413612e+15
+      e10: 9.87e-43
       e11: 0
-      e12: 2.23e-43
-      e13: 2.23e-43
-      e20: -1.1749386e-12
-      e21: 1.5973537e+29
-      e22: -4.723957
-      e23: 1.5973537e+29
-      e30: 4.5905e-41
-      e31: 8.23e-43
-      e32: 8.2e-43
-      e33: 8.23e-43
+      e12: 2.89e-43
+      e13: 2.89e-43
+      e20: -7435.453
+      e21: 1.5868723e+29
+      e22: 4.0130196
+      e23: 1.5868723e+29
+      e30: 4.5904e-41
+      e31: 9.9e-43
+      e32: 9.87e-43
+      e33: 9.9e-43
   m_TileColorArray:
   - m_RefCount: 0
-    m_Data: {r: 1.5973537e+29, g: 1.5973537e+29, b: 1.5973537e+29, a: 1.5973537e+29}
+    m_Data: {r: 1.5868723e+29, g: 1.5868723e+29, b: 1.5868723e+29, a: 1.5868723e+29}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1373,6 +1363,10 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 46bac75db06c9d1429e4ba4d4ad3c758, type: 2}
   - m_RefCount: 6
     m_Data: {fileID: 11400000, guid: 4f2752f273b9bcc49bf03cedae4fb662, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileSpriteArray:
   - m_RefCount: 4
     m_Data: {fileID: 263602130845813580, guid: 60da8905b0d900b42809bdcb7df54750, type: 3}
@@ -1384,6 +1378,10 @@ Tilemap:
     m_Data: {fileID: 612517914824942564, guid: 60da8905b0d900b42809bdcb7df54750, type: 3}
   - m_RefCount: 6
     m_Data: {fileID: -3166219371047694552, guid: 60da8905b0d900b42809bdcb7df54750, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileMatrixArray:
   - m_RefCount: 53
     m_Data:
@@ -8544,6 +8542,18 @@ CompositeCollider2D:
         Y: -225000000
       - X: -50000000
         Y: -225000000
+      - X: -50000000
+        Y: -244999900
+      - X: -49999959
+        Y: -244999900
+      - X: -49999900
+        Y: -244999959
+      - X: -49999900
+        Y: -250000041
+      - X: -49999959
+        Y: -250000100
+      - X: -50000000
+        Y: -250000100
       - X: -50000000
         Y: -255000000
       - X: -140000000
