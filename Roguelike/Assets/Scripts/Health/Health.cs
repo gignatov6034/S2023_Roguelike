@@ -2,30 +2,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 public class Health : MonoBehaviour
-{
-
-    [SerializeField] int _maxHealth;
-
-    public int maxHealth
-    {
-        get { return _maxHealth; }
-
-        set { _maxHealth = value; }
-    }
-    
-    [SerializeField] int _health; 
-
-    public int health 
-    {
-        get { return _health; }
-        set { _health = value;}
-    }
+{   
+    public float MaxHealth { get; set; }
+    public float CurrentHealth { get; set; }
 
     //This sets the healh when the game starts 
-    public void SetInitialHealth(int maxHealth)
+    public void SetInitialHealth(float MaxHealth)
     {
-        this.maxHealth = maxHealth;
-        health = maxHealth;
+        this.MaxHealth = MaxHealth;
+        CurrentHealth = MaxHealth;
     }
 
+    public void HealObject(float healAmount)
+    {
+        CurrentHealth += healAmount;
+        checkOverHeal();
+    }
+
+    private void checkOverHeal()
+    {
+        if (CurrentHealth > MaxHealth)
+        {
+            CurrentHealth = MaxHealth;
+        }
+    }
+
+    public void DealDamage(float damage)
+    {
+        CurrentHealth -= damage;
+    }
 }
