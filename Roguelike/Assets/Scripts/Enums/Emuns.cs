@@ -32,6 +32,5 @@ public enum GameState
     gameWon,
     gameLost,
     gamePaused,
-    levelOverviewMap,
     restartGame
 }
